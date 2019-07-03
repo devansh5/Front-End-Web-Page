@@ -1,0 +1,56 @@
+body{
+	border:20px #bdc3c7 solid;
+	padding:20px;
+	max-width:700px;
+	width:80%;
+	margin:20px auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.quote{
+	border-left:5px solid #bdc3c7;
+	padding-left:5px;
+}
+.date{
+	text-transform:UPPERCASE;
+	color: #3498db;
+	font-size:20px;
+	letter-spacing:0.2rem;
+}
+h1{
+	color:#2c3e50;
+	font-size:2.0rem;
+
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+
+}
+.post{
+	margin-bottom:20px;
+}
+/*p {
+	margin-left:5%;
+	margin-right:5%;
+	font-size:15px;
+	border-left:5px solid gray;
+	border-width:30%;
+}
+p:nth-of-type(1){
+	padding-top:10px;
+
+}
+h1{
+	margin-left: 5%;
+	padding-top: 10px;
+}
+h3{
+	margin-left:5%;
+	color:blue;
+	line-height:1;
+}*/
